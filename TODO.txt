@@ -1,1 +1,12 @@
-* Set up uwsgi correctly behding nginx.
+* Set up uwsgi correctly behind nginx (emperor?)
+* Set up queries against...
+  * Amazon
+  * Wikipedia
+  * Google Knowledge Graph / Freebase
+* Frontend
+* Advertising / amazon affiliate?
+* Single install script.
+* Docker?
+* Set up wildcard subdomains ({who,what,where,when,why}.thefuck.is/<query>)
+* Analytics / logging
+
