@@ -1,7 +1,6 @@
-# Install nginx
-sudo apt-get install nginx -y
-
 # Make our conf available
+sudo rm /etc/nginx/sites-available/thefuck.is.conf
+sudo rm /etc/nginx/sites-enabled/thefuck.is.conf
 sudo cp conf/thefuck.is.conf /etc/nginx/sites-available
 sudo ln -s /etc/nginx/sites-available/thefuck.is.conf /etc/nginx/sites-enabled/thefuck.is.conf
 
