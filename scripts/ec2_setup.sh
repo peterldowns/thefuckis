@@ -7,11 +7,14 @@ sudo apt-get upgrade -y
 # Install make
 sudo apt-get install make -y
 
+# Install compilers
+sudo apt-get install build-essential -y
+
 # Install git
 sudo apt-get install git -y
 
 # Install pip
-sudo apt-get install python-pip -y
+sudo apt-get install python-pip python-dev -y
 sudo pip install --upgrade pip
 
 # Install virtualenv
